@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without  tests   # do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Scalar
 %define		pnam	Properties
@@ -36,6 +36,7 @@ jest obiektem; tak samo, jak rezultat tych manipulacji.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
 %{?with_tests: %{__make} test}
 
 %install
