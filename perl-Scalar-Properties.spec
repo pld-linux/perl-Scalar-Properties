@@ -30,7 +30,7 @@ jest obiektem; tak samo, jak rezultat tych manipulacji.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 #%%{__make} test
 
