@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Scalar
 %define		pnam	Properties
-Summary:	Scalar::Properties -- run-time properties on scalar variables
-Summary(pl):	Scalar::Properties -- w³a¶ciwo¶ci skalarów w trakcie wykonywania
+Summary:	Scalar::Properties - run-time properties on scalar variables
+Summary(pl):	Scalar::Properties - w³a¶ciwo¶ci skalarów w trakcie wykonywania
 Name:		perl-Scalar-Properties
 Version:	0.12
 Release:	1
