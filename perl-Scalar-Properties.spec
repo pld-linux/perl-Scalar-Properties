@@ -10,7 +10,8 @@ Summary(pl):	Scalar::Properties - w³a¶ciwo¶ci skalarów w trakcie wykonywania
 Name:		perl-Scalar-Properties
 Version:	0.12
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	19aefcff9043f8645d42f0bbe8c39d18
