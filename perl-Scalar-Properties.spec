@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Scalar
-%define	pnam	Properties
+%define		pdir	Scalar
+%define		pnam	Properties
 Summary:	Scalar::Properties -- run-time properties on scalar variables.
 Summary(pl):	Scalar::Properties -- w³a¶ciwo¶ci skalarów w trakcie wykonywania.
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Scalar-Properties
 Version:	0.10
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -15,9 +15,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Scalar::Properties attempts to make Perl more object-oriented by taking
-an idea from Ruby: Everything you manipulate is an object, and the
-results of those manipulations are objects themselves.
+Scalar::Properties attempts to make Perl more object-oriented by
+taking an idea from Ruby: Everything you manipulate is an object, and
+the results of those manipulations are objects themselves.
 
 %description -l pl
 Scalar::Properties próbuje dodaæ do Perla nieco wiêcej obiektowo¶ci
@@ -42,5 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes TODO
-%{perl_sitelib}/%{pdir}/*.pm
+%dir %{perl_sitelib}/Scalar
+%{perl_sitelib}/Scalar/*.pm
 %{_mandir}/man3/*
