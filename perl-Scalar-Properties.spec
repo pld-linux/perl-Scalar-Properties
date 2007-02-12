@@ -6,7 +6,7 @@
 %define		pdir	Scalar
 %define		pnam	Properties
 Summary:	Scalar::Properties - run-time properties on scalar variables
-Summary(pl):	Scalar::Properties - w≥a∂ciwo∂ci skalarÛw w trakcie wykonywania
+Summary(pl.UTF-8):   Scalar::Properties - w≈Ça≈õciwo≈õci skalar√≥w w trakcie wykonywania
 Name:		perl-Scalar-Properties
 Version:	0.12
 Release:	2
@@ -25,9 +25,9 @@ Scalar::Properties attempts to make Perl more object-oriented by
 taking an idea from Ruby: Everything you manipulate is an object, and
 the results of those manipulations are objects themselves.
 
-%description -l pl
-Scalar::Properties prÛbuje dodaÊ do Perla nieco wiÍcej obiektowo∂ci
-poprzez zaimplementowanie pomys≥u z Ruby: wszystko, na czym operujesz,
+%description -l pl.UTF-8
+Scalar::Properties pr√≥buje dodaƒá do Perla nieco wiƒôcej obiektowo≈õci
+poprzez zaimplementowanie pomys≈Çu z Ruby: wszystko, na czym operujesz,
 jest obiektem; tak samo, jak rezultat tych manipulacji.
 
 %prep
