@@ -6,7 +6,7 @@
 %define		pdir	Scalar
 %define		pnam	Properties
 Summary:	Scalar::Properties - run-time properties on scalar variables
-Summary(pl.UTF-8):   Scalar::Properties - właściwości skalarów w trakcie wykonywania
+Summary(pl.UTF-8):	Scalar::Properties - właściwości skalarów w trakcie wykonywania
 Name:		perl-Scalar-Properties
 Version:	0.12
 Release:	2
