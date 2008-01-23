@@ -13,8 +13,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Scalar/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	78e191132f3b8e1e97fb9f38e7e512bf
+URL:		http://search.cpan.org/dist/Scalar-Properties/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
