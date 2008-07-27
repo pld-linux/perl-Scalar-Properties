@@ -9,7 +9,7 @@ Summary:	Scalar::Properties - run-time properties on scalar variables
 Summary(pl.UTF-8):	Scalar::Properties - właściwości skalarów w trakcie wykonywania
 Name:		perl-Scalar-Properties
 Version:	0.13
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
