@@ -8,15 +8,19 @@
 Summary:	Scalar::Properties - run-time properties on scalar variables
 Summary(pl.UTF-8):	Scalar::Properties - właściwości skalarów w trakcie wykonywania
 Name:		perl-Scalar-Properties
-Version:	0.13
-Release:	2
+Version:	1.100860
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Scalar/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	78e191132f3b8e1e97fb9f38e7e512bf
+# Source0-md5:	6f144203205f0a60026b82f32e51c595
 URL:		http://search.cpan.org/dist/Scalar-Properties/
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.11
 BuildRequires:	perl-devel >= 1:5.8.0
+%if %{with tests}
+BuildRequires:	perl-Test-Simple >= 0.88
+%endif
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -51,7 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes TODO
+%doc Changes
 %dir %{perl_vendorlib}/Scalar
-%{perl_vendorlib}/Scalar/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/Scalar/Properties.pm
+%{_mandir}/man3/Scalar::Properties.3pm*
