@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Scalar
 %define		pnam	Properties
 Summary:	Scalar::Properties - run-time properties on scalar variables
